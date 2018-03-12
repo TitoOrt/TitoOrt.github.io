@@ -2,4 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-word-wrap: normal
+pre {
+    white-space: pre-wrap;
+}
