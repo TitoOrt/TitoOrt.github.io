@@ -10,22 +10,10 @@ DCGAN stands for **Deep Convolutional Adversarial Network** which is basically c
 In our example, we have built our adversarial model using **Keras** and **TensorFlow** as backend. Code looks like:
 
 
-```markdown
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar  2 08:19:48 2018
-
-GAN EXAMPLE
-
-
-@author: joseluis
-"""
-
+```python
 import numpy as np
 import time
 import os
-
-os.chdir(r'c:/Users/joseluis/Desktop/GAN')
 
 from tensorflow.examples.tutorials.mnist import input_data
 
@@ -39,8 +27,6 @@ from keras.optimizers import Adam, RMSprop
 from keras.datasets import mnist
 
 import matplotlib.pyplot as plt
-
-#%%
 
 class GAN():
     def __init__(self):
@@ -194,7 +180,7 @@ class GAN():
                 cnt += 1
         fig.savefig("mnist_%d.png" % epoch)
         plt.close()
-#%%
+
 
 if __name__ == '__main__':
     gan = GAN()
