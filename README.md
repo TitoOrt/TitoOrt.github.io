@@ -189,7 +189,7 @@ if __name__ == '__main__':
 
 ## What...?
 
-Yeah, probably all these piece of code are a little bit daunting for some audiences. But let me walk through all these ideas and you'll see it's not so hard once you get familiar with the different blocks.
+Yeah, probably all these piece of code are a little bit daunting for some audiences. But let me walk through all these ideas and you'll see it's not so hard once you get familiar with the different blocks. Many ideas come from : [ganhacks github](https://github.com/soumith/ganhacks)
 
 ## GAN Class
 
