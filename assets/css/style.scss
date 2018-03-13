@@ -2,13 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+.inner {
+  max-width: 75%;
+}
 pre {
     white-space: pre-wrap;
-    html,
-body {
-  margin: 0;
-  padding: 0;
-}
 
 }
 
